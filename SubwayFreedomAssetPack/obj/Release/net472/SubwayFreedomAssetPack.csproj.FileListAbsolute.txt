@@ -1,0 +1,10 @@
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\bin\Release\net472\SubwayFreedomAssetPack.dll
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\bin\Release\net472\SubwayFreedomAssetPack.pdb
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\obj\Release\net472\SubwayFreedomAssetPack.csproj.AssemblyReference.cache
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\obj\Release\net472\SubwayFreedomAssetPack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\obj\Release\net472\SubwayFreedomAssetPack.AssemblyInfoInputs.cache
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\obj\Release\net472\SubwayFreedomAssetPack.AssemblyInfo.cs
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\obj\Release\net472\SubwayFreedomAssetPack.csproj.CoreCompileInputs.cache
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\obj\Release\net472\SubwayFreedomAssetPack.sourcelink.json
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\obj\Release\net472\SubwayFreedomAssetPack.dll
+C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\obj\Release\net472\SubwayFreedomAssetPack.pdb

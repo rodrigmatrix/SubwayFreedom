@@ -1,0 +1,26 @@
+{
+  "Assets.NAME[FreedomSubwayStationBuilding]": "Subway Station Module",
+  "Assets.DESCRIPTION[FreedomSubwayStationBuilding]": "Create a subway station module to add, platforms with different elevations and create entrances for pedestrians to have access.",
+
+  "Assets.UPGRADE_NAME[FreedomSubwayStationEntrance01BuildingUpgrade]": "Small Entrance",
+  "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStationEntrance01BuildingUpgrade]": "A small subway entrance.",
+
+  "Assets.UPGRADE_NAME[FreedomSubwayStationEntrance03BuildingUpgrade]": "Vanilla Subway Entrance",
+  "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStationEntrance03BuildingUpgrade]": "The default vanilla subway station entrance.",
+
+  "Assets.UPGRADE_NAME[FreedomSubwayStationEntrance02BuildingUpgrade]": "Large Subway Entrance",
+  "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStationEntrance02BuildingUpgrade]": "A large subway entrance.",
+
+  "Assets.UPGRADE_NAME[FreedomSubwayStraitPlatformLevel20]": "Straight Platform Elevation -20",
+  "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStraitPlatformLevel20]": "The track installation upgrade for the Module Subway Station with -20 of elevation.",
+
+  "Assets.UPGRADE_NAME[FreedomSubwayStraitPlatformLevel30]": "Straight Platform Elevation -30",
+  "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStraitPlatformLevel30]": "The track installation upgrade for the Module Subway Station with -30 of elevation.",
+
+  "Assets.UPGRADE_NAME[FreedomSubwayStraitPlatformLevel40]": "Straight Platform Elevation -40",
+  "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStraitPlatformLevel40]": "The track installation upgrade for the Module Subway Station with -40 of elevation.",
+
+  "Assets.UPGRADE_NAME[FreedomSubwayStraitPlatformLevel50]": "Straight Platform Elevation -50",
+  "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStraitPlatformLevel50]": "The track installation upgrade for the Module Subway Station with -50 of elevation."
+
+}

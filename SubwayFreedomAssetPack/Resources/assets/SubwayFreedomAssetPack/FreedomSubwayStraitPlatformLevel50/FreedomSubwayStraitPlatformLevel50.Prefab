@@ -1,0 +1,327 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BuildingPrefab, Game",
+    "name": "FreedomSubwayStraitPlatformLevel50",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 12,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ServiceUpgrade, Game",
+                "name": "ServiceUpgrade",
+                "active": true,
+                "m_Buildings": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.BuildingPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"CID:e902134afd93ed423222ac225e8eebd1"
+                    ]
+                },
+                "m_UpgradeCost": 50000,
+                "m_XPReward": 150,
+                "m_MaxPlacementOffset": 2,
+                "m_MaxPlacementDistance": 70
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.Pollution, Game",
+                "name": "Pollution",
+                "active": true,
+                "m_GroundPollution": 0,
+                "m_AirPollution": 0,
+                "m_NoisePollution": 1000,
+                "m_ScaleWithRenters": true
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.ObsoleteIdentifiers, Game",
+                "name": "ObsoleteIdentifiers",
+                "active": true,
+                "m_PrefabIdentifiers": {
+                    "$id": 6,
+                    "$type": "6|Game.Prefabs.PrefabIdentifierInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 7,
+                            "$type": "7|Game.Prefabs.PrefabIdentifierInfo, Game",
+                            "m_Name": "FreedomSubwayStationPlatform30BuildingUpgrade",
+                            "m_Type": "BuildingPrefab"
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 8,
+                "$type": "8|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 13,
+                "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayStraitPlatformLevel50/icon.png",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 9,
+                "$type": "9|Game.Prefabs.ObjectSubNets, Game",
+                "name": "ObjectSubNets",
+                "active": true,
+                "m_InvertWhen": 0,
+                "m_SubNets": {
+                    "$id": 10,
+                    "$type": "10|Game.Prefabs.ObjectSubNetInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 11,
+                            "$type": "11|Game.Prefabs.ObjectSubNetInfo, Game",
+                            "m_NetPrefab": $fstrref:"UnityGUID:0011d68338c492b4f8cc16dbe793244d",
+                            "m_BezierCurve": {
+                                "$type": "12|Colossal.Mathematics.Bezier4x3, Colossal.Mathematics",
+                                "a": {
+                                    "$type": "13|Unity.Mathematics.float3, Unity.Mathematics",
+                                    "x": 100,
+                                    "y": -50,
+                                    "z": -1.10268593E-05
+                                },
+                                "b": {
+                                    "$type": 13,
+                                    "x": 50,
+                                    "y": -50,
+                                    "z": -4.466623E-06
+                                },
+                                "c": {
+                                    "$type": 13,
+                                    "x": -50,
+                                    "y": -50,
+                                    "z": 2.58162618E-06
+                                },
+                                "d": {
+                                    "$type": 13,
+                                    "x": -100,
+                                    "y": -50,
+                                    "z": 9.134412E-06
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": "14|Unity.Mathematics.int2, Unity.Mathematics",
+                                "x": 0,
+                                "y": 1
+                            },
+                            "m_ParentMesh": {
+                                "$type": 14,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 12,
+                                "$type": "15|Game.Prefabs.NetPieceRequirements[], Game",
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 13,
+                "$type": "16|Game.Prefabs.ObjectSubObjects, Game",
+                "name": "ObjectSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 14,
+                    "$type": "17|Game.Prefabs.ObjectSubObjectInfo[], Game",
+                    "$rlength": 4,
+                    "$rcontent": [
+                        {
+                            "$id": 15,
+                            "$type": "18|Game.Prefabs.ObjectSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:83d685861607631478870fb6c74fe970",
+                            "m_Position": {
+                                "$type": 13,
+                                "x": 0,
+                                "y": -50,
+                                "z": 3.5
+                            },
+                            "m_Rotation": {
+                                "$type": "19|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "20|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 18,
+                            "m_Object": $fstrref:"UnityGUID:83d685861607631478870fb6c74fe970",
+                            "m_Position": {
+                                "$type": 13,
+                                "x": 0,
+                                "y": -50,
+                                "z": -3.5
+                            },
+                            "m_Rotation": {
+                                "$type": 19,
+                                "value": {
+                                    "$type": 20,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 18,
+                            "m_Object": $fstrref:"UnityGUID:c30226ded1fc8d64abee5d0bd2554bc4",
+                            "m_Position": {
+                                "$type": 13,
+                                "x": -9.8,
+                                "y": -49,
+                                "z": 2.5
+                            },
+                            "m_Rotation": {
+                                "$type": 19,
+                                "value": {
+                                    "$type": 20,
+                                    "x": 0,
+                                    "y": 1,
+                                    "z": 0,
+                                    "w": -4.371139E-08
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 18,
+                            "m_Object": $fstrref:"UnityGUID:c30226ded1fc8d64abee5d0bd2554bc4",
+                            "m_Position": {
+                                "$type": 13,
+                                "x": -9.8,
+                                "y": -49,
+                                "z": -2.5
+                            },
+                            "m_Rotation": {
+                                "$type": 19,
+                                "value": {
+                                    "$type": 20,
+                                    "x": 0,
+                                    "y": 1,
+                                    "z": 0,
+                                    "w": -4.371139E-08
+                                }
+                            },
+                            "m_ParentMesh": 0,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 19,
+                "$type": "21|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 20,
+                    "$type": "22|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 21,
+                    "$type": 22,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": true
+            },
+            {
+                "$id": 22,
+                "$type": "23|Game.Prefabs.TransportStation, Game",
+                "name": "TransportStation",
+                "active": true,
+                "m_CarRefuelTypes": 0,
+                "m_TrainRefuelTypes": 0,
+                "m_WatercraftRefuelTypes": 0,
+                "m_AircraftRefuelTypes": 0,
+                "m_ComfortFactor": 0.5
+            },
+            {
+                "$id": 23,
+                "$type": "24|Game.Prefabs.CityServiceBuilding, Game",
+                "name": "CityServiceBuilding",
+                "active": true,
+                "m_Upkeeps": {
+                    "$id": 24,
+                    "$type": "25|Game.Prefabs.ServiceUpkeepItem[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 25,
+                "$type": "26|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:29c94efd3e9d25d4fae82711a36cc753"
+            },
+            {
+                "$id": 26,
+                "$type": "27|Game.Prefabs.ServiceConsumption, Game",
+                "name": "ServiceConsumption",
+                "active": true,
+                "m_Upkeep": 5000,
+                "m_ElectricityConsumption": 5000,
+                "m_WaterConsumption": 1000,
+                "m_GarbageAccumulation": 125,
+                "m_TelecomNeed": 0
+            },
+            {
+                "$id": 27,
+                "$type": "28|Game.Prefabs.Workplace, Game",
+                "name": "Workplace",
+                "active": true,
+                "m_Workplaces": 3,
+                "m_Complexity": 0,
+                "m_EveningShiftProbability": 0.25,
+                "m_NightShiftProbability": 0.125
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 28,
+        "$type": "29|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_Circular": true,
+    "m_AccessType": 7,
+    "m_LotWidth": 1,
+    "m_LotDepth": 1
+}

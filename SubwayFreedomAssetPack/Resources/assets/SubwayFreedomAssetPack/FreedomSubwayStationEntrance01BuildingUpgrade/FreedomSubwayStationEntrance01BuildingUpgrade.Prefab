@@ -500,7 +500,7 @@
                 "m_MaxPlacementDistance": 80
             },
             {
-                "$id": 40,
+                "$id": 1,
                 "$type": "38|Game.Prefabs.UIObject, Game",
                 "name": "UIObject",
                 "active": true,

@@ -780,7 +780,7 @@
                 "m_ComfortFactor": 0.5
             },
             {
-                "$id": 44,
+                "$id": 3,
                 "$type": "24|Game.Prefabs.UIObject, Game",
                 "name": "UIObject",
                 "active": true,

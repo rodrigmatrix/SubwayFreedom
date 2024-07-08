@@ -56,7 +56,7 @@
                 }
             },
             {
-                "$id": 8,
+                "$id": 30,
                 "$type": "8|Game.Prefabs.UIObject, Game",
                 "name": "UIObject",
                 "active": true,

@@ -9,24 +9,28 @@
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
 # THIS IS A BETA. PLEASE TEST AND GIVE YOUR FEEDBACK
-
 ## How to use it:
-- You can watch the linked youtube video to understand how it works.
+You can watch the linked youtube video to understand how it works or read bellow.
+## ALWAYS PLACE EVERYHING USING ANARCHY
+  - 1 Create a Subway Station Module. Place the module on a road because it has service needs.
 
-# ALWAYS PLACE EVERYHING USING ANARCHY
+  - 2 Place a platform. You can choose the elevation level. Use anarchy and disable snapping to place anywhere you want(It's not works for the vanilla entrance. this will be fixed). You can add as many as you want.
 
-### Create a Subway Station Module. Place the module on a road because it has service needs.
+  - 3 Place an entrance. To the passengers to have access, place and entrance on the side of a road or connect invisble pedestrian paths to it. You can have have as many as you want.
 
-### Place a platform. You can choose the elevation level. Use anarchy and disable snapping to place anywhere you want(It's not works for the vanilla entrance. this will be fixed). You can add as many as you want.
-
-### Place an entrance. To the passengers to have access, place and entrance on the side of a road or connect invisble pedestrian paths to it. You can have have as many as you want.
-
-### See the magic.
+  - 4 See the magic.
 
 # KNOWN ISSUES:
-### - When trying to delete the subway module, the other connections will stay. Please delete entrances and platforms before deleting the subway module.
+### When trying to delete the subway module, the other connections will stay. Please delete entrances and platforms before deleting the subway module.
 
-### If you have any questions, please use the discussion bellow
+### This is not an issue but something from the game. If you need to move entrances or platforms, you'll have to click on them and use the realocate button. If you use move it, everything from the building will be moved together. This happens for other in game building as well so there's no fix for it.
+
+## If you have any questions, please use the discussion bellow
+    
+# Planned Features:
+- More subway entrances
+
+- Curved subway platforms
   </LongDescription>
 	<!--Thumbnail-->
   <Thumbnail Value="ParadoxRes/Thumbnail.png" />
@@ -35,20 +39,23 @@
   <Screenshot Value="ParadoxRes/Screenshot2.png" />
   <Screenshot Value="ParadoxRes/Screenshot3.png" />
   <Screenshot Value="ParadoxRes/Screenshot4.png" />
+  <Screenshot Value="ParadoxRes/Screenshot5.png" />
+  <Screenshot Value="ParadoxRes/Screenshot6.png" />
+  <Screenshot Value="ParadoxRes/Screenshot7.png" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/subway-freedom-asset-pack-mod-discussion.1694309/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
+	<ModVersion Value="1.0.4" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
   <Dependency Id="78903" />
   <Dependency Id="74604" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-    -# v1.0
-    Release
+# v1.4
+ - Fixed issue that passengers do not enter stations. To fix it in your save, delete the current entrances and add them again.
   </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->

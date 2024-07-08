@@ -7,12 +7,14 @@
       "RelativeMoniker": "D:0:0:{52C74763-C18C-4D59-BAF5-152B32BDA177}|SubwayFreedomAssetPack.csproj|solutionrelative:properties\\publishconfiguration.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52C74763-C18C-4D59-BAF5-152B32BDA177}|SubwayFreedomAssetPack.csproj|c:\\users\\rodri\\onedrive\\documents\\cities mods git\\subwayfreedom\\subwayfreedomassetpack\\subwayfreedomassetpack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{52C74763-C18C-4D59-BAF5-152B32BDA177}|SubwayFreedomAssetPack.csproj|solutionrelative:subwayfreedomassetpack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{52C74763-C18C-4D59-BAF5-152B32BDA177}|SubwayFreedomAssetPack.csproj|c:\\users\\rodri\\appdata\\locallow\\colossal order\\cities skylines ii\\.cache\\modding\\mod.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52C74763-C18C-4D59-BAF5-152B32BDA177}|SubwayFreedomAssetPack.csproj|c:\\users\\rodri\\onedrive\\documents\\cities mods git\\subwayfreedom\\subwayfreedomassetpack\\resources\\lang\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{52C74763-C18C-4D59-BAF5-152B32BDA177}|SubwayFreedomAssetPack.csproj|solutionrelative:resources\\lang\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{52C74763-C18C-4D59-BAF5-152B32BDA177}|SubwayFreedomAssetPack.csproj|c:\\users\\rodri\\onedrive\\documents\\cities mods git\\subwayfreedom\\subwayfreedomassetpack\\mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C74763-C18C-4D59-BAF5-152B32BDA177}|SubwayFreedomAssetPack.csproj|solutionrelative:mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C74763-C18C-4D59-BAF5-152B32BDA177}|SubwayFreedomAssetPack.csproj|c:\\users\\rodri\\appdata\\locallow\\colossal order\\cities skylines ii\\.cache\\modding\\mod.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +24,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mod.targets",
+              "DocumentMoniker": "C:\\Users\\rodri\\AppData\\LocalLow\\Colossal Order\\Cities Skylines II\\.cache\\Modding\\Mod.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\LocalLow\\Colossal Order\\Cities Skylines II\\.cache\\Modding\\Mod.targets",
+              "ToolTip": "C:\\Users\\rodri\\AppData\\LocalLow\\Colossal Order\\Cities Skylines II\\.cache\\Modding\\Mod.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\LocalLow\\Colossal Order\\Cities Skylines II\\.cache\\Modding\\Mod.targets",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAEMAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-07-08T20:36:11.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mod.cs",
+              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documents\\Cities Mods Git\\SubwayFreedom\\SubwayFreedomAssetPack\\Mod.cs",
+              "RelativeDocumentMoniker": "Mod.cs",
+              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documents\\Cities Mods Git\\SubwayFreedom\\SubwayFreedomAssetPack\\Mod.cs",
+              "RelativeToolTip": "Mod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T02:00:45.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mod.props",
+              "DocumentMoniker": "C:\\Users\\rodri\\AppData\\LocalLow\\Colossal Order\\Cities Skylines II\\.cache\\Modding\\Mod.props",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\LocalLow\\Colossal Order\\Cities Skylines II\\.cache\\Modding\\Mod.props",
+              "ToolTip": "C:\\Users\\rodri\\AppData\\LocalLow\\Colossal Order\\Cities Skylines II\\.cache\\Modding\\Mod.props",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\LocalLow\\Colossal Order\\Cities Skylines II\\.cache\\Modding\\Mod.props",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-07-08T02:00:44.444Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,43 +74,9 @@
               "RelativeDocumentMoniker": "Properties\\PublishConfiguration.xml",
               "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documents\\Cities Mods Git\\SubwayFreedom\\SubwayFreedomAssetPack\\Properties\\PublishConfiguration.xml",
               "RelativeToolTip": "Properties\\PublishConfiguration.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACkAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2024-07-07T17:46:56.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "en-US.json",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documents\\Cities Mods Git\\SubwayFreedom\\SubwayFreedomAssetPack\\Resources\\lang\\en-US.json",
-              "RelativeDocumentMoniker": "Resources\\lang\\en-US.json",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documents\\Cities Mods Git\\SubwayFreedom\\SubwayFreedomAssetPack\\Resources\\lang\\en-US.json",
-              "RelativeToolTip": "Resources\\lang\\en-US.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-07T15:24:52.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubwayFreedomAssetPack.csproj",
-              "DocumentMoniker": "C:\\Users\\rodri\\OneDrive\\Documents\\Cities Mods Git\\SubwayFreedom\\SubwayFreedomAssetPack\\SubwayFreedomAssetPack.csproj",
-              "RelativeDocumentMoniker": "SubwayFreedomAssetPack.csproj",
-              "ToolTip": "C:\\Users\\rodri\\OneDrive\\Documents\\Cities Mods Git\\SubwayFreedom\\SubwayFreedomAssetPack\\SubwayFreedomAssetPack.csproj",
-              "RelativeToolTip": "SubwayFreedomAssetPack.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-07T15:04:13.07Z",
               "EditorCaption": ""
             }
           ]

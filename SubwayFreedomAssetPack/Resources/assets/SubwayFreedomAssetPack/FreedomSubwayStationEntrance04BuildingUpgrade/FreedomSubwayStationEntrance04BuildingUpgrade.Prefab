@@ -239,12 +239,10 @@
                 "m_RequireAll": {
                     "$id": 15,
                     "$type": "11|Game.Prefabs.PrefabBase[], Game",
-                    "$rlength": 4,
+                    "$rlength": 2,
                     "$rcontent": [
                         $fstrref:"UnityGUID:74ca56eea547afb45b2fda30e50a95d8",
-                        $fstrref:"UnityGUID:63764b78eb15af548b14a77f687047e0",
-                        $fstrref:"UnityGUID:deabf2dddb6b3634a985aaaef94315e6",
-                        $fstrref:"UnityGUID:bca86e5ae0aac9e4fa3553b68e0f9a8e"
+                        $fstrref:"UnityGUID:63764b78eb15af548b14a77f687047e0"
                     ]
                 },
                 "m_RequireAny": {
@@ -468,14 +466,14 @@
                 "m_MaxPlacementDistance": 80
             },
             {
-                "$id": 4,
+                "$id": 37,
                 "$type": "33|Game.Prefabs.UIObject, Game",
                 "name": "UIObject",
                 "active": true,
                 "m_Group": null,
                 "m_Priority": 0,
                 "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayStationEntrance04BuildingUpgrade/icon.png",
-                "m_LargeIcon": "",
+                "m_LargeIcon": null,
                 "m_IsDebugObject": false
             }
         ]

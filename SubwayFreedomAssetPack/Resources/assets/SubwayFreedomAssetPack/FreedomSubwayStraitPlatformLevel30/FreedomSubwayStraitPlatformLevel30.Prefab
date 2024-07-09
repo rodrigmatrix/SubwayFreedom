@@ -296,9 +296,9 @@
                 "name": "ServiceConsumption",
                 "active": true,
                 "m_Upkeep": 5000,
-                "m_ElectricityConsumption": 5000,
-                "m_WaterConsumption": 1000,
-                "m_GarbageAccumulation": 125,
+                "m_ElectricityConsumption": 0,
+                "m_WaterConsumption": 0,
+                "m_GarbageAccumulation": 0,
                 "m_TelecomNeed": 0
             },
             {
@@ -306,7 +306,7 @@
                 "$type": "28|Game.Prefabs.Workplace, Game",
                 "name": "Workplace",
                 "active": true,
-                "m_Workplaces": 3,
+                "m_Workplaces": 0,
                 "m_Complexity": 0,
                 "m_EveningShiftProbability": 0.25,
                 "m_NightShiftProbability": 0.125

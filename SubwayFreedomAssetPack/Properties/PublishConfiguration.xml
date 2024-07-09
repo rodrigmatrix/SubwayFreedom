@@ -9,16 +9,19 @@
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
 # THIS IS A BETA. PLEASE TEST AND GIVE YOUR FEEDBACK
+
 ## How to use it:
+
 You can watch the linked youtube video to understand how it works or read bellow.
+
 ## ALWAYS PLACE EVERYHING USING ANARCHY
-  - 1 Create a Subway Station Module. Place the module on a road because it has service needs.
+- 1 Create a Subway Station Module. Place the module on a road because it has service needs.
 
-  - 2 Place a platform. You can choose the elevation level. Use anarchy and disable snapping to place anywhere you want(It's not works for the vanilla entrance. this will be fixed). You can add as many as you want.
+- 2 Place a platform. You can choose the elevation level. Use anarchy and disable snapping to place anywhere you want(It's not works for the vanilla entrance. this will be fixed). You can add as many as you want.
 
-  - 3 Place an entrance. To the passengers to have access, place and entrance on the side of a road or connect invisble pedestrian paths to it. You can have have as many as you want.
+- 3 Place an entrance. To the passengers to have access, place and entrance on the side of a road or connect invisble pedestrian paths to it. You can have have as many as you want.
 
-  - 4 See the magic.
+- 4 See the magic.
 
 # KNOWN ISSUES:
 ### When trying to delete the subway module, the other connections will stay. Please delete entrances and platforms before deleting the subway module.
@@ -47,15 +50,16 @@ You can watch the linked youtube video to understand how it works or read bellow
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/subway-freedom-asset-pack-mod-discussion.1694309/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.4" />
+	<ModVersion Value="1.0.5" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
   <Dependency Id="78903" />
   <Dependency Id="74604" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-# v1.4
- - Fixed issue that passengers do not enter stations. To fix it in your save, delete the current entrances and add them again.
+# v1.5
+- Fixed issue that passengers do not enter stations. To fix it in your save, delete the current entrances and add them again.
+- Fixed stations asking for services.
   </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->

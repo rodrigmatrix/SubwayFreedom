@@ -21,7 +21,7 @@
                 "$type": "3|Game.Prefabs.Workplace, Game",
                 "name": "Workplace",
                 "active": true,
-                "m_Workplaces": 1,
+                "m_Workplaces": 0,
                 "m_Complexity": 1,
                 "m_EveningShiftProbability": 0.25,
                 "m_NightShiftProbability": 0.125

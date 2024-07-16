@@ -785,7 +785,7 @@
                 "name": "UIObject",
                 "active": true,
                 "m_Group": null,
-                "m_Priority": 3,
+                "m_Priority": 0,
                 "m_Icon": "coui://ail/SubwayStation01.png",
                 "m_LargeIcon": "",
                 "m_IsDebugObject": false

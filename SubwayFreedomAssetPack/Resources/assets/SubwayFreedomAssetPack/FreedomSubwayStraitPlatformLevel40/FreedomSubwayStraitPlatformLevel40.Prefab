@@ -49,19 +49,19 @@
                         {
                             "$id": 7,
                             "$type": "7|Game.Prefabs.PrefabIdentifierInfo, Game",
-                            "m_Name": "FreedomSubwayStationPlatform30BuildingUpgrade",
+                            "m_Name": "FreedomSubwayStationPlatform40BuildingUpgrade",
                             "m_Type": "BuildingPrefab"
                         }
                     ]
                 }
             },
             {
-                "$id": 32,
+                "$id": 8,
                 "$type": "8|Game.Prefabs.UIObject, Game",
                 "name": "UIObject",
                 "active": true,
                 "m_Group": null,
-                "m_Priority": 12,
+                "m_Priority": 0,
                 "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayStraitPlatformLevel40/icon.png",
                 "m_LargeIcon": "",
                 "m_IsDebugObject": false

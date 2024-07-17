@@ -24,7 +24,7 @@
                 "m_UpgradeCost": 50000,
                 "m_XPReward": 150,
                 "m_MaxPlacementOffset": 2,
-                "m_MaxPlacementDistance": 70
+                "m_MaxPlacementDistance": 230
             },
             {
                 "$id": 4,

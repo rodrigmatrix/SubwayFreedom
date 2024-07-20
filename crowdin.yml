@@ -1,0 +1,3 @@
+files:
+  - source: /SubwayFreedomAssetPack/Resources/lang/en-US.json
+    translation: /SubwayFreedomAssetPack/Resources/lang/%locale%

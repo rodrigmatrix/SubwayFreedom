@@ -80,15 +80,8 @@
                 "m_PrefabIdentifiers": {
                     "$id": 11,
                     "$type": "10|Game.Prefabs.PrefabIdentifierInfo[], Game",
-                    "$rlength": 1,
-                    "$rcontent": [
-                        {
-                            "$id": 12,
-                            "$type": "11|Game.Prefabs.PrefabIdentifierInfo, Game",
-                            "m_Name": "FreedomSubwayStationBuilding",
-                            "m_Type": "BuildingPrefab"
-                        }
-                    ]
+                    "$rlength": 0,
+                    "$rcontent": []
                 }
             },
             {

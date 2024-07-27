@@ -1107,15 +1107,8 @@
                 "m_PrefabIdentifiers": {
                     "$id": 57,
                     "$type": "29|Game.Prefabs.PrefabIdentifierInfo[], Game",
-                    "$rlength": 1,
-                    "$rcontent": [
-                        {
-                            "$id": 58,
-                            "$type": "30|Game.Prefabs.PrefabIdentifierInfo, Game",
-                            "m_Name": "FreedomSubwayStationEntrance02BuildingUpgrade",
-                            "m_Type": "BuildingExtensionPrefab"
-                        }
-                    ]
+                    "$rlength": 0,
+                    "$rcontent": []
                 }
             }
         ]

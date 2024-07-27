@@ -44,15 +44,8 @@
                 "m_PrefabIdentifiers": {
                     "$id": 6,
                     "$type": "6|Game.Prefabs.PrefabIdentifierInfo[], Game",
-                    "$rlength": 1,
-                    "$rcontent": [
-                        {
-                            "$id": 7,
-                            "$type": "7|Game.Prefabs.PrefabIdentifierInfo, Game",
-                            "m_Name": "FreedomSubwayCurvedPlatformLevel50",
-                            "m_Type": "BuildingPrefab"
-                        }
-                    ]
+                    "$rlength": 0,
+                    "$rcontent": []
                 }
             },
             {

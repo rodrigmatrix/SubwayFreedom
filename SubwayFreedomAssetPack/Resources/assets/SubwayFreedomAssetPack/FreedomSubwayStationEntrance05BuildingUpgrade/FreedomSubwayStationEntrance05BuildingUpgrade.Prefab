@@ -2779,8 +2779,7 @@
                     "$id": 119,
                     "$type": "27|Game.Prefabs.PrefabIdentifierInfo[], Game",
                     "$rlength": 0,
-                    "$rcontent": [
-                    ]
+                    "$rcontent": []
                 }
             }
         ]

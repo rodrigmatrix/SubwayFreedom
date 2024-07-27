@@ -8,8 +8,8 @@
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
-# THIS IS A BETA. PLEASE TEST AND GIVE YOUR FEEDBACK
-
+## Subway Freedom
+## Create unlimited entrances and platforms with different elevation.
 ## How to use it:
 
 You can watch the linked youtube video to understand how it works or read bellow.
@@ -52,7 +52,6 @@ You can watch the linked youtube video to understand how it works or read bellow
 - Curved Subway Platform Elevation -30
 - Curved Subway Platform Elevation -40
 - Curved Subway Platform Elevation -50
-
   </LongDescription>
 	<!--Thumbnail-->
   <Thumbnail Value="ParadoxRes/Thumbnail.png" />
@@ -69,19 +68,15 @@ You can watch the linked youtube video to understand how it works or read bellow
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/subway-freedom-asset-pack-mod-discussion.1694309/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.1.2" />
+	<ModVersion Value="1.1.3" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
   <Dependency Id="78903" />
   <Dependency Id="74604" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-# v1.1.2
-- Added one new entrance: Sidewalk entrance. You can place this new entrance on the sidewalk of roads.
-- Added 4 new platforms: Curved stations. Now, you can create stations with a curved angle.
-- Fixed pedestrians entering walls for commercial 3x2 entrance.
-- Updated icons.
-- Fixed missing CID issue.
+# v1.1.3
+- Fixing duplicated prefab ids
   </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->

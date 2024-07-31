@@ -2,6 +2,52 @@
   "Assets.NAME[FreedomSubwayStationBuilding]": "Módulo de Estação de Metrô",
   "Assets.DESCRIPTION[FreedomSubwayStationBuilding]": "Adicione esse módulo para poder adicionar upgrades como plataformas com diferentes profundidades e criar entradas para os pedestres terem acesso. Insira o modulo em um lugar que possa clicar no futuro.",
 
+  "Assets.NAME[FreedomSubwayStationEntrance01BuildingUpgrade]": "Entrada de Estação de Metrô Pequena",
+  "Assets.DESCRIPTION[FreedomSubwayStationEntrance01BuildingUpgrade]": "Uma entrada pequena para o módulo do metrô.",
+
+  "Assets.NAME[FreedomSubwayStationEntrance03BuildingUpgrade]": "Entrada de Estação de Metrô Padrão",
+  "Assets.DESCRIPTION[FreedomSubwayStationEntrance03BuildingUpgrade]": "Uma entrada para o módulo do metrô com mesmo layout da estação padrão do jogo.",
+
+  "Assets.NAME[FreedomSubwayStationEntrance02BuildingUpgrade]": "Entrada de Estação de Metrô Grande",
+  "Assets.DESCRIPTION[FreedomSubwayStationEntrance02BuildingUpgrade]": "Uma entrada grande para o módulo do metrô.",
+
+  "Assets.NAME[FreedomSubwayStationEntrance04BuildingUpgrade]": "Entrada de Estação de Metrô Média",
+  "Assets.DESCRIPTION[FreedomSubwayStationEntrance04BuildingUpgrade]": "Uma entrada média para o módulo do metrô.",
+
+  "Assets.NAME[FreedomSubwayStationEntrance05BuildingUpgrade]": "Entrada de Estação de Metrô Comercial 3x2",
+  "Assets.DESCRIPTION[FreedomSubwayStationEntrance05BuildingUpgrade]": "Uma entrada para o módulo do metrô com o layout de um prédio comercial 3x2.",
+
+  "Assets.NAME[FreedomSubwayStationEntrance06BuildingUpgrade]": "Entrada de Estação de Metrô Estátua De Bronze",
+  "Assets.DESCRIPTION[FreedomSubwayStationEntrance06BuildingUpgrade]": "Uma entrada como estátua de bronze para o módulo do metrô. Pedestres podem usar todos os lados para ter acesso.",
+
+  "Assets.NAME[FreedomSubwayStationEntrance07BuildingUpgrade]": "Entrada de Estação de Metrô de Calçada",
+  "Assets.DESCRIPTION[FreedomSubwayStationEntrance07BuildingUpgrade]": "Uma entrada que deve ser inserida na calçada de uma via. Pedestres que estiverem caminhando poderão usa-lá para ter accesso ao metrô. Sua via precisa de uma calçada.",
+
+  "Assets.NAME[FreedomSubwayStraitPlatformLevel20]": "Plataforma reta de metrô com 20 metros de profundidade",
+  "Assets.DESCRIPTION[FreedomSubwayStraitPlatformLevel20]": "Uma plataforma central de metrô com 20 metros de profundidade.",
+
+  "Assets.NAME[FreedomSubwayStraitPlatformLevel30]": "Plataforma reta de metrô 30 metros de profundidade",
+  "Assets.DESCRIPTION[FreedomSubwayStraitPlatformLevel30]": "Uma plataforma central de metrô com 30 metros de profundidade.",
+
+  "Assets.NAME[FreedomSubwayStraitPlatformLevel40]": "Plataforma reta de metrô 40 metros de profundidade",
+  "Assets.DESCRIPTION[FreedomSubwayStraitPlatformLevel40]": "Uma plataforma central de metrô com 40 metros de profundidade.",
+
+  "Assets.NAME[FreedomSubwayStraitPlatformLevel50]": "Plataforma reta de metrô 50 metros de profundidade",
+  "Assets.DESCRIPTION[FreedomSubwayStraitPlatformLevel50]": "Uma plataforma central de metrô com 50 metros de profundidade.",
+
+  "Assets.NAME[FreedomSubwayCurvedPlatformLevel20]": "Plataforma curva de metrô com 20 metros de profundidade",
+  "Assets.DESCRIPTION[FreedomSubwayCurvedPlatformLevel20]": "Uma plataforma central de metrô com 20 metros de profundidade e uma curva em um ângulo de 90 graus.",
+
+  "Assets.NAME[FreedomSubwayCurvedPlatformLevel30]": "Plataforma curva de metrô com 30 metros de profundidade",
+  "Assets.DESCRIPTION[FreedomSubwayCurvedPlatformLevel30]": "Uma plataforma central de metrô com 30 metros de profundidade e uma curva em um ângulo de 90 graus.",
+
+  "Assets.NAME[FreedomSubwayCurvedPlatformLevel40]": "Plataforma curva de metrô com 40 metros de profundidade",
+  "Assets.DESCRIPTION[FreedomSubwayCurvedPlatformLevel40]": "Uma plataforma central de metrô com 40 metros de profundidade e uma curva em um ângulo de 90 graus.",
+
+  "Assets.NAME[FreedomSubwayCurvedPlatformLevel50]": "Plataforma curva de metrô com 50 metros de profundidade",
+  "Assets.DESCRIPTION[FreedomSubwayCurvedPlatformLevel50]": "Uma plataforma central de metrô com 50 metros de profundidade e uma curva em um ângulo de 90 graus.",
+
+  // Upgrades
   "Assets.UPGRADE_NAME[FreedomSubwayStationEntrance01BuildingUpgrade]": "Entrada de Estação de Metrô Pequena",
   "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStationEntrance01BuildingUpgrade]": "Uma entrada pequena para o módulo do metrô.",
 
@@ -46,5 +92,4 @@
 
   "Assets.UPGRADE_NAME[FreedomSubwayCurvedPlatformLevel50]": "Plataforma curva de metrô com 50 metros de profundidade",
   "Assets.UPGRADE_DESCRIPTION[FreedomSubwayCurvedPlatformLevel50]": "Uma plataforma central de metrô com 50 metros de profundidade e uma curva em um ângulo de 90 graus."
-
 }

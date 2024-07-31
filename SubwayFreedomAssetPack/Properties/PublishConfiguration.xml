@@ -68,15 +68,15 @@ You can watch the linked youtube video to understand how it works or read bellow
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/subway-freedom-asset-pack-mod-discussion.1694309/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.1.3" />
+	<ModVersion Value="1.1.4" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
   <Dependency Id="78903" />
   <Dependency Id="74604" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-# v1.1.3
-- Fixing duplicated prefab ids
+# v1.1.4
+- Fixing default building upgrades asset name
   </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->

@@ -23,6 +23,9 @@
   "Assets.NAME[FreedomSubwayStationEntrance07BuildingUpgrade]": "Sidewalk Subway Entrance",
   "Assets.DESCRIPTION[FreedomSubwayStationEntrance07BuildingUpgrade]": "A subway entrance that needs to be placed on the sidewalk of a road. Pedestrians that are walking on the sidewalk will have access to the station. Your road needs to have a sidewalk.",
 
+  "Assets.NAME[FreedomSubwayStationEntrance08BuildingUpgrade]": "Small Roadside Subway Entrance",
+  "Assets.DESCRIPTION[FreedomSubwayStationEntrance08BuildingUpgrade]": "A small roadside subway entrance to be placed on the side of a road or sidewalk.",
+
   "Assets.NAME[FreedomSubwayStraitPlatformLevel20]": "Straight Subway Platform Elevation -20",
   "Assets.DESCRIPTION[FreedomSubwayStraitPlatformLevel20]": "The track installation upgrade for the Module Subway Station with -20 of elevation.",
 
@@ -70,6 +73,9 @@
 
   "Assets.UPGRADE_NAME[FreedomSubwayStationEntrance07BuildingUpgrade]": "Sidewalk Subway Entrance",
   "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStationEntrance07BuildingUpgrade]": "A subway entrance that needs to be placed on the sidewalk of a road. Pedestrians that are walking on the sidewalk will have access to the station. Your road needs to have a sidewalk.",
+
+  "Assets.UPGRADE_NAME[FreedomSubwayStationEntrance08BuildingUpgrade]": "Small Roadside Subway Entrance",
+  "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStationEntrance08BuildingUpgrade]": "A small roadside subway entrance to be placed on the side of a road or sidewalk.",
 
   "Assets.UPGRADE_NAME[FreedomSubwayStraitPlatformLevel20]": "Straight Subway Platform Elevation -20",
   "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStraitPlatformLevel20]": "The track installation upgrade for the Module Subway Station with -20 of elevation.",

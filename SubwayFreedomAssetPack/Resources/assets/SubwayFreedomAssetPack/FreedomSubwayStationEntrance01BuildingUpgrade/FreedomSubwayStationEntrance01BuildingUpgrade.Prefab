@@ -660,13 +660,9 @@
                 "m_Buildings": {
                     "$id": 46,
                     "$type": "37|Game.Prefabs.BuildingPrefab[], Game",
-                    "$rlength": 5,
+                      "$rlength": 1,
                     "$rcontent": [
-                        $fstrref:"CID:e902134afd93ed423222ac225e8eebd1",
-                        $fstrref:"UnityGUID:2ff3ea79ba961174da0ded44933118d3",
-                        $fstrref:"UnityGUID:4f048676e1c1964438f12a36542b0348",
-                        $fstrref:"UnityGUID:836577752455f83459f9ee927031de0d",
-                        $fstrref:"UnityGUID:335b12b616bdd67469d776577b323338"
+                        $fstrref:"CID:e902134afd93ed423222ac225e8eebd1"
                     ]
                 },
                 "m_UpgradeCost": 100,

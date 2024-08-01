@@ -26,7 +26,10 @@ You can watch the linked youtube video to understand how it works or read bellow
 - 5 To delete/move the module and upgrades, click on the module and delete all of its sub-building on the info pannel. You can also click any sub-building and go to the main building to check all of the upgrades. Look for the known issues below.
 
 # KNOWN ISSUES:
-- When trying to delete the subway module, the other connections will stay. Please delete entrances and platforms before deleting the subway module.
+- If you have the mod ExtraDetailingTools, you will see a button to delete the subway module on the info pannel. Do not use that button do delete the module and all sub-buildings. 
+Instead, you can first delete the upgrades or use the bulldozer on the subway module to delete everything for that station. 
+You can delete other upgrades from the info view but not the subway module. This issue causes surfaces and paltforms not being deleted. 
+This also happens to other buildings and is caused by the ExtraDetailingTools delete button.
 
 - This is not an issue but something from the game. If you need to move entrances or platforms, you'll have to click on them and use the realocate button. If you use move it, everything from the building will be moved together. This happens for other in game building as well so there's no fix for it.
 
@@ -68,14 +71,15 @@ You can watch the linked youtube video to understand how it works or read bellow
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/subway-freedom-asset-pack-mod-discussion.1694309/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.1.4" />
+	<ModVersion Value="1.1.5" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
   <Dependency Id="78903" />
   <Dependency Id="74604" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-# v1.1.4
+# v1.1.5
+- Added new entrance: Small Roadside entrance.
 - Fixing default building upgrades asset name
   </ChangeLog>
 	<!--ChangeLog>

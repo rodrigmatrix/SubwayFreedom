@@ -23,6 +23,9 @@
   "Assets.NAME[FreedomSubwayStationEntrance07BuildingUpgrade]": "Entrada de Estação de Metrô de Calçada",
   "Assets.DESCRIPTION[FreedomSubwayStationEntrance07BuildingUpgrade]": "Uma entrada que deve ser inserida na calçada de uma via. Pedestres que estiverem caminhando poderão usa-lá para ter accesso ao metrô. Sua via precisa de uma calçada.",
 
+  "Assets.NAME[FreedomSubwayStationEntrance08BuildingUpgrade]": "Entrada de Estação de Metrô Pequena ao Lado de Calçada",
+  "Assets.DESCRIPTION[FreedomSubwayStationEntrance08BuildingUpgrade]": "Uma entrada pequena para o módulo do metrô que pode ser inserida ao lado de uma calçada.",
+
   "Assets.NAME[FreedomSubwayStraitPlatformLevel20]": "Plataforma reta de metrô com 20 metros de profundidade",
   "Assets.DESCRIPTION[FreedomSubwayStraitPlatformLevel20]": "Uma plataforma central de metrô com 20 metros de profundidade.",
 
@@ -68,6 +71,9 @@
 
   "Assets.UPGRADE_NAME[FreedomSubwayStationEntrance07BuildingUpgrade]": "Entrada de Estação de Metrô de Calçada",
   "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStationEntrance07BuildingUpgrade]": "Uma entrada que deve ser inserida na calçada de uma via. Pedestres que estiverem caminhando poderão usa-lá para ter accesso ao metrô. Sua via precisa de uma calçada.",
+
+  "Assets.UPGRADE_NAME[FreedomSubwayStationEntrance08BuildingUpgrade]": "Entrada de Estação de Metrô Pequena ao Lado de Calçada",
+  "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStationEntrance08BuildingUpgrade]": "Uma entrada pequena para o módulo do metrô que pode ser inserida ao lado de uma calçada.",
 
   "Assets.UPGRADE_NAME[FreedomSubwayStraitPlatformLevel20]": "Plataforma reta de metrô com 20 metros de profundidade",
   "Assets.UPGRADE_DESCRIPTION[FreedomSubwayStraitPlatformLevel20]": "Uma plataforma central de metrô com 20 metros de profundidade.",

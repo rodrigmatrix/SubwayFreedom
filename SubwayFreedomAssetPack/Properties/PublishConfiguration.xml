@@ -9,34 +9,37 @@
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
 ## Subway Freedom
-## Create unlimited entrances and platforms with different elevation.
+Create unlimited entrances and platforms with different elevation.
+
 ## How to use it:
 
 You can watch the linked youtube video to understand how it works or read bellow.
 
-## ALWAYS PLACE EVERYHING USING ANARCHY
 - 1 Create a Subway Station Module: Place the module somewhere you will be able to click later. You will need that to add more upgrades.
 
 - 2 Place a platform: You can choose the elevation level and if it's strait or curved. Use anarchy and disable snapping to place anywhere you want. You can add as many as you want.
 
 - 3 Place an entrance: To the passengers to have access, place and entrance on the side of a road or connect invisble pedestrian paths to it. You can have have as many as you want.
 
-- 4 See the magic.
+- 4 Connect the stops to the platforms and see the magic.
 
-- 5 To delete/move the module and upgrades, click on the module and delete all of its sub-building on the info pannel. You can also click any sub-building and go to the main building to check all of the upgrades. Look for the known issues below.
+- 5 To delete/move the module and/or upgrades, click on the module and delete all of its sub-building on the info pannel or use the bulldozer on the module or sub-buildings. You can also click any sub-building and go to the main building to check all of the upgrades.
 
 # KNOWN ISSUES:
-- If you have the mod ExtraDetailingTools, you will see a button to delete the subway module on the info pannel. Do not use that button do delete the module and all sub-buildings. 
-Instead, you can first delete the upgrades or use the bulldozer on the subway module to delete everything for that station. 
-You can delete other upgrades from the info view but not the subway module. This issue causes surfaces and paltforms not being deleted. 
+- If you have the mod ExtraDetailingTools, you will see a button to delete the subway module on the info pannel. Do not use that button to delete the module and all sub-buildings.
+Instead, you can first delete the upgrades or use the bulldozer on the subway module to delete everything for that station.
+You can delete other upgrades from the info view but not the subway module. This issue causes surfaces and platforms not being deleted.
 This also happens to other buildings and is caused by the ExtraDetailingTools delete button.
 
-- This is not an issue but something from the game. If you need to move entrances or platforms, you'll have to click on them and use the realocate button. If you use move it, everything from the building will be moved together. This happens for other in game building as well so there's no fix for it.
+- This is not an issue but something from the move it mod. If you need to move entrances or platforms, you'll have to click on them and use the realocate button. This happens for other in game building as well so there's no fix for it so we need to wait for move it to support sub-buildings.
 
 ## If you have any questions, please use the discussion bellow
 
 # Planned Features:
 - More subway entrances
+
+## For asset creators:
+- If you want to create a custom entrance and make it compatible with this mod, you can do so by creating a building and adding a ServiceUpgrade with the id: "CID:e902134afd93ed423222ac225e8eebd1". You can check the entrances present here for examples.
 
 # All assets available here:
 - Subway Station Module
@@ -47,6 +50,8 @@ This also happens to other buildings and is caused by the ExtraDetailingTools de
 - Commercial 3x2 Subway Entrance
 - Bronze Statue Subway Entrance
 - Sidewalk Subway Entrance
+- Roadside Subway Entrance
+- Small Roadside Subway Entrance
 - Straight Subway Platform Elevation -20
 - Straight Subway Platform Elevation -30
 - Straight Subway Platform Elevation -40
@@ -71,16 +76,17 @@ This also happens to other buildings and is caused by the ExtraDetailingTools de
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/subway-freedom-asset-pack-mod-discussion.1694309/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.1.5" />
+	<ModVersion Value="1.1.6" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
   <Dependency Id="78903" />
   <Dependency Id="74604" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-# v1.1.5
-- Added new entrance: Small Roadside entrance.
-- Fixing default building upgrades asset name
+# v1.1.6
+- Fixed Medium Subway Entrance not working in a few locations. Remove the entrance and place it again.
+- Subway module is not circular to differentiate from platforms
+- Pedestrian can access the Medium subway entrance and Small subway entrance from all sides.
   </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->

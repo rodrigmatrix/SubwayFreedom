@@ -3,3 +3,6 @@ build_property.RootNamespace = SubwayFreedomAssetPack
 build_property.ProjectDir = C:\Users\rodri\OneDrive\Documents\Cities Mods Git\SubwayFreedom\SubwayFreedomAssetPack\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

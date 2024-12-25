@@ -76,15 +76,15 @@ This also happens to other buildings and is caused by the ExtraDetailingTools de
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/subway-freedom-asset-pack-mod-discussion.1694309/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.1.8" />
+	<ModVersion Value="1.2.0" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.*" />
   <Dependency Id="78903" />
   <Dependency Id="74604" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-# v1.1.8
-- Updated to new game version.
+# v1.2.0
+- New entrance: Invisible Entrance. Place this anywhere or inside building and connect with an invisible pedestrian path. This can make any building be an entrance.
   </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->

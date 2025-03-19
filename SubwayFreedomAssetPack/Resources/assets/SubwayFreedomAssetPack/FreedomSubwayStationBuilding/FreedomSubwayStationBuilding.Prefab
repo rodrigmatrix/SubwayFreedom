@@ -1,4 +1,4 @@
-{
+﻿{
     "$id": 0,
     "$type": "0|Game.Prefabs.BuildingPrefab, Game",
     "name": "FreedomSubwayStationBuilding",
@@ -46,7 +46,6 @@
                 "m_Group": $fstrref:"UnityGUID:32b5e550d4a9af34facf35e8b1b14206",
                 "m_Priority": 3,
                 "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayStationBuilding/icon.png",
-                "m_LargeIcon": "",
                 "m_IsDebugObject": false
             },
             {

@@ -1,4 +1,4 @@
-{
+﻿{
     "$id": 0,
     "$type": "0|Game.Prefabs.BuildingPrefab, Game",
     "name": "FreedomSubwayStationEntrance01BuildingUpgrade",
@@ -946,7 +946,6 @@
                 "m_Group": null,
                 "m_Priority": 0,
                 "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayStationEntrance01BuildingUpgrade/icon.png",
-                "m_LargeIcon": "",
                 "m_IsDebugObject": false
             },
             {

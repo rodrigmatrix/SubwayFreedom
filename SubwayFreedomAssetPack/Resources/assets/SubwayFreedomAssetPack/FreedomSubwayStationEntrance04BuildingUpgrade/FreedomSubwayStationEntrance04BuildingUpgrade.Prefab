@@ -968,8 +968,8 @@
                 "name": "UIObject",
                 "active": true,
                 "m_Group": null,
-                "m_Priority": 0,
-                "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayStationEntrance04BuildingUpgrade/icon.png",
+                "m_Priority": 4,
+                "m_Icon": "assetdb://global/7465d38b69c77ccf833156620725d90d",
                 "m_IsDebugObject": false
             },
             {

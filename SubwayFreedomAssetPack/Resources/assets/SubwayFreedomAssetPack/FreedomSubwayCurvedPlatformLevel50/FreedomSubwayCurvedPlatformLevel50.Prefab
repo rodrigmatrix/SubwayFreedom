@@ -54,7 +54,7 @@
                 "name": "UIObject",
                 "active": true,
                 "m_Group": null,
-                "m_Priority": 0,
+                "m_Priority": 107,
                 "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayCurvedPlatformLevel50/icon.png",
                 "m_IsDebugObject": false
             },

@@ -945,7 +945,7 @@
                 "active": true,
                 "m_Group": null,
                 "m_Priority": 0,
-                "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayStationEntrance01BuildingUpgrade/icon.png",
+               "m_Icon": "assetdb://global/5af929ae6964b63d194ac7f1a1fd3286",
                 "m_IsDebugObject": false
             },
             {

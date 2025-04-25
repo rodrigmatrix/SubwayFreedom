@@ -54,7 +54,7 @@
                 "name": "UIObject",
                 "active": true,
                 "m_Group": null,
-                "m_Priority": 0,
+                "m_Priority": 102,
                 "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayStraitPlatformLevel40/icon.png",
                 "m_IsDebugObject": false
             },

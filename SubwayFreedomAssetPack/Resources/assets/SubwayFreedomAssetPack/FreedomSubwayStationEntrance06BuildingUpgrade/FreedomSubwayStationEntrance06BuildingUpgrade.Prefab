@@ -6297,7 +6297,7 @@
                 "name": "UIObject",
                 "active": true,
                 "m_Group": null,
-                "m_Priority": 0,
+                "m_Priority": 6,
                 "m_Icon": "assetdb://global/173ca762ad460f1339a45fff115d55cf",
                 "m_IsDebugObject": false
             },

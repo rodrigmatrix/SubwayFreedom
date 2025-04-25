@@ -218,7 +218,7 @@
                 "active": true,
                 "m_Group": null,
                 "m_Priority": 0,
-                "m_Icon": "coui://customassets/SubwayFreedomAssetPack/FreedomSubwayStationInvisibleEntranceUpgradeIcon/FreedomSubwayStationInvisibleEntranceUpgradeIcon.png",
+                "m_Icon": "assetdb://global/f3a1da3651cf88adefdf77f50860076c",
                 "m_IsDebugObject": false
             },
             {

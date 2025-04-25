@@ -6298,8 +6298,7 @@
                 "active": true,
                 "m_Group": null,
                 "m_Priority": 0,
-                "m_Icon": "coui://ail/BronzeStatue01.png",
-                "m_LargeIcon": null,
+                "m_Icon": "assetdb://global/173ca762ad460f1339a45fff115d55cf",
                 "m_IsDebugObject": false
             },
             {

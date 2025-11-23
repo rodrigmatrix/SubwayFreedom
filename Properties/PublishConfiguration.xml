@@ -95,14 +95,15 @@ Thanks to TDW for the Asset Icon Creator.
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/subway-freedom-asset-pack-mod-discussion.1694309/" />
 	<!--Version of the mod-->
-	<ModVersion Value="3.1" />
+	<ModVersion Value="3.1.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.*" />
   <Dependency Id="74604" />
   <Dependency Id="75426" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-# v3.1
+# v3.1.1 
+  - Updated icons
   - Added new bike and tram support.
   - Bike station halls and overground tram stations also serve as pedestrian entrances for the module so they can transfer to overground or underground platforms/lines.
   - Added support to the new assets on Station Entrance Visuals

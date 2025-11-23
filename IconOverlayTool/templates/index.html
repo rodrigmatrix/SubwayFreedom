@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Freedom Icon Overlay Tool</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --surface-color: #1e1e1e;
+            --primary-color: #bb86fc;
+            --text-color: #e0e0e0;
+            --border-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: var(--surface-color);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        input[type="file"], select {
+            width: 100%;
+            padding: 0.8rem;
+            background-color: #2c2c2c;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-color);
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 1rem;
+            background-color: var(--primary-color);
+            color: #000;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: opacity 0.2s;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        button:disabled {
+            background-color: #555;
+            cursor: not-allowed;
+        }
+
+        #log {
+            margin-top: 2rem;
+            background-color: #000;
+            padding: 1rem;
+            border-radius: 6px;
+            height: 200px;
+            overflow-y: auto;
+            font-family: 'Consolas', monospace;
+            font-size: 0.9rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .log-entry {
+            margin-bottom: 0.2rem;
+        }
+        .log-success { color: #4caf50; }
+        .log-error { color: #f44336; }
+        .log-info { color: #2196f3; }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Icon Overlay Tool</h1>
+    
+    <div class="form-group">
+        <label for="overlay">1. Upload Overlay Image (PNG)</label>
+        <input type="file" id="overlay" accept="image/png">
+    </div>
+
+    <div class="form-group">
+        <label for="line_type">2. Select Line Type</label>
+        <select id="line_type">
+            <option value="" disabled selected>Select a category...</option>
+            <option value="Bus">Bus</option>
+            <option value="Tram">Tram</option>
+            <option value="Train">Train</option>
+            <option value="Subway">Subway</option>
+            <option value="Bike">Bike / Bicycle</option>
+        </select>
+    </div>
+
+    <button id="applyBtn" onclick="applyOverlay()">Apply Overlay</button>
+
+    <div id="log">
+        <div class="log-entry log-info">Ready...</div>
+    </div>
+</div>
+
+<script>
+    async function applyOverlay() {
+        const overlayInput = document.getElementById('overlay');
+        const lineTypeInput = document.getElementById('line_type');
+        const logDiv = document.getElementById('log');
+        const btn = document.getElementById('applyBtn');
+
+        if (!overlayInput.files[0]) {
+            log("Please select an overlay image.", "error");
+            return;
+        }
+        if (!lineTypeInput.value) {
+            log("Please select a line type.", "error");
+            return;
+        }
+
+        const formData = new FormData();
+        formData.append('overlay', overlayInput.files[0]);
+        formData.append('line_type', lineTypeInput.value);
+
+        btn.disabled = true;
+        btn.innerText = "Processing...";
+        log("Starting process...", "info");
+
+        try {
+            const response = await fetch('/apply', {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                log(`Success! Processed ${result.processed_count} files.`, "success");
+                result.processed_files.forEach(file => {
+                    log(`Updated: ${file}`, "success");
+                });
+                if (result.errors && result.errors.length > 0) {
+                    result.errors.forEach(err => log(err, "error"));
+                }
+            } else {
+                log(`Error: ${result.error}`, "error");
+            }
+
+        } catch (error) {
+            log(`Network Error: ${error.message}`, "error");
+        } finally {
+            btn.disabled = false;
+            btn.innerText = "Apply Overlay";
+        }
+    }
+
+    function log(message, type = "info") {
+        const logDiv = document.getElementById('log');
+        const entry = document.createElement('div');
+        entry.className = `log-entry log-${type}`;
+        entry.innerText = `[${new Date().toLocaleTimeString()}] ${message}`;
+        logDiv.appendChild(entry);
+        logDiv.scrollTop = logDiv.scrollHeight;
+    }
+</script>
+
+</body>
+</html>

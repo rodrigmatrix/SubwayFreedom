@@ -1,0 +1,615 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.TrackPrefab, Game",
+    "name": "FreedomTramStationCenterPlatformTrack",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 9,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.NetSubObjects, Game",
+                "name": "NetSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.NetSubObjectInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.NetSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:0ab8c75abf2b4e1408d4367f17189b57",
+                            "m_Position": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": -3,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "6|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            },
+                            "m_Placement": 0,
+                            "m_FixedIndex": 0,
+                            "m_Spacing": 0,
+                            "m_AnchorTop": false,
+                            "m_AnchorCenter": false,
+                            "m_RequireElevated": true,
+                            "m_RequireOutsideConnection": false,
+                            "m_RequireDeadEnd": false,
+                            "m_RequireOrphan": false
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 5,
+                "$type": "8|Game.Prefabs.PlaceableNet, Game",
+                "name": "PlaceableNet",
+                "active": true,
+                "m_ElevationRange": {
+                    "$type": "9|Colossal.Mathematics.Bounds1, Colossal.Mathematics",
+                    "min": -50,
+                    "max": 50
+                },
+                "m_AllowParallelMode": true,
+                "m_UndergroundPrefab": null,
+                "m_XPReward": 1
+            },
+            {
+                "$id": 6,
+                "$type": "10|Game.Prefabs.NetUpgrade, Game",
+                "name": "NetUpgrade",
+                "active": true,
+                "m_SetState": {
+                    "$id": 7,
+                    "$type": "11|Game.Prefabs.NetPieceRequirements[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        18,
+                        20
+                    ]
+                },
+                "m_UnsetState": {
+                    "$id": 8,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_Standalone": true,
+                "m_Underground": false
+            },
+            {
+                "$id": 9,
+                "$type": "12|Game.Prefabs.ElectricityConnection, Game",
+                "name": "ElectricityConnection",
+                "active": true,
+                "m_Voltage": 0,
+                "m_Direction": 3,
+                "m_Capacity": 400000,
+                "m_RequireAll": {
+                    "$id": 10,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 11,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 12,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            },
+            {
+                "$id": 13,
+                "$type": "13|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:29c94efd3e9d25d4fae82711a36cc753"
+            },
+            {
+                "$id": 14,
+                "$type": "14|Game.Prefabs.NetPollution, Game",
+                "name": "NetPollution",
+                "active": true,
+                "m_NoisePollutionFactor": 1,
+                "m_AirPollutionFactor": 1
+            },
+            {
+                "$id": 15,
+                "$type": "15|Game.Prefabs.UndergroundNetSections, Game",
+                "name": "UndergroundNetSections",
+                "active": true,
+                "m_Sections": {
+                    "$id": 16,
+                    "$type": "16|Game.Prefabs.NetSectionInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 17,
+                            "$type": "17|Game.Prefabs.NetSectionInfo, Game",
+                            "m_Section": $fstrref:"UnityGUID:a8db8a5bd3190c1438bef98c26cbe366",
+                            "m_RequireAll": {
+                                "$id": 18,
+                                "$type": 11,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireAny": {
+                                "$id": 19,
+                                "$type": 11,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_RequireNone": {
+                                "$id": 20,
+                                "$type": 11,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            },
+                            "m_HiddenLayers": 0,
+                            "m_Invert": false,
+                            "m_Flip": false,
+                            "m_Median": false,
+                            "m_HalfLength": false,
+                            "m_Offset": {
+                                "$type": 5,
+                                "x": 0,
+                                "y": -0.65,
+                                "z": 0
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 21,
+                "$type": "18|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 22,
+                    "$type": "19|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:281b8b9bc7381e543969af74813e8e92"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 23,
+                    "$type": 19,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            },
+            {
+                "$id": 24,
+                "$type": "20|Game.Prefabs.UnlockOnBuild, Game",
+                "name": "UnlockOnBuild",
+                "active": true,
+                "m_Unlocks": {
+                    "$id": 25,
+                    "$type": "21|Game.Prefabs.ObjectBuiltRequirementPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:841a4a48f15528b4da5e3a633ef02dfb"
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Sections": {
+        "$id": 26,
+        "$type": 16,
+        "$rlength": 8,
+        "$rcontent": [
+            {
+                "$id": 27,
+                "$type": 17,
+                "m_Section": $fstrref:"UnityGUID:6fc572ad0b4d84642b2af579e7fad0ad",
+                "m_RequireAll": {
+                    "$id": 28,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 29,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 30,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": true,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_HalfLength": false,
+                "m_Offset": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 31,
+                "$type": 17,
+                "m_Section": $fstrref:"UnityGUID:75c9bb6055cbe234986b4619e215db71",
+                "m_RequireAll": {
+                    "$id": 32,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 33,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 34,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": true,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_HalfLength": false,
+                "m_Offset": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 35,
+                "$type": 17,
+                "m_Section": $fstrref:"UnityGUID:5b3d51dea46f4cb46a747b39a62c6b21",
+                "m_RequireAll": {
+                    "$id": 36,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 37,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 38,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": true,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_HalfLength": false,
+                "m_Offset": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 39,
+                "$type": 17,
+                "m_Section": $fstrref:"UnityGUID:d7ebad68039c1404e8f44e14b2f8dff5",
+                "m_RequireAll": {
+                    "$id": 40,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 41,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 42,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": true,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_HalfLength": false,
+                "m_Offset": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 43,
+                "$type": 17,
+                "m_Section": $fstrref:"UnityGUID:d7ebad68039c1404e8f44e14b2f8dff5",
+                "m_RequireAll": {
+                    "$id": 44,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 45,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 46,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": false,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_HalfLength": false,
+                "m_Offset": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 47,
+                "$type": 17,
+                "m_Section": $fstrref:"UnityGUID:5b3d51dea46f4cb46a747b39a62c6b21",
+                "m_RequireAll": {
+                    "$id": 48,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 49,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 50,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": true,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_HalfLength": false,
+                "m_Offset": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 51,
+                "$type": 17,
+                "m_Section": $fstrref:"UnityGUID:75c9bb6055cbe234986b4619e215db71",
+                "m_RequireAll": {
+                    "$id": 52,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 53,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 54,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": false,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_HalfLength": false,
+                "m_Offset": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "$id": 55,
+                "$type": 17,
+                "m_Section": $fstrref:"UnityGUID:6fc572ad0b4d84642b2af579e7fad0ad",
+                "m_RequireAll": {
+                    "$id": 56,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 57,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 58,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_HiddenLayers": 0,
+                "m_Invert": false,
+                "m_Flip": false,
+                "m_Median": false,
+                "m_HalfLength": false,
+                "m_Offset": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        ]
+    },
+    "m_EdgeStates": {
+        "$id": 59,
+        "$type": "22|Game.Prefabs.NetEdgeStateInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 60,
+                "$type": "23|Game.Prefabs.NetEdgeStateInfo, Game",
+                "m_RequireAll": {
+                    "$id": 61,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 62,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 63,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SetState": {
+                    "$id": 64,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        51
+                    ]
+                }
+            }
+        ]
+    },
+    "m_NodeStates": {
+        "$id": 65,
+        "$type": "24|Game.Prefabs.NetNodeStateInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 66,
+                "$type": "25|Game.Prefabs.NetNodeStateInfo, Game",
+                "m_RequireAll": {
+                    "$id": 67,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 68,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_RequireNone": {
+                    "$id": 69,
+                    "$type": 11,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SetState": {
+                    "$id": 70,
+                    "$type": 11,
+                    "$rlength": 1,
+                    "$rcontent": [
+                        51
+                    ]
+                },
+                "m_MatchType": 0
+            }
+        ]
+    },
+    "m_MaxSlopeSteepness": 0.2,
+    "m_AggregateType": $fstrref:"UnityGUID:82aa823529d2b884db8a94ae673a0215",
+    "m_StyleType": null,
+    "m_InvertMode": 0,
+    "m_TrackType": 2,
+    "m_SpeedLimit": 50
+}

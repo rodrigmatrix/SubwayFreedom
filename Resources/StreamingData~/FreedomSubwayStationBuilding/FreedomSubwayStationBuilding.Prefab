@@ -1,0 +1,288 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BuildingPrefab, Game",
+    "name": "FreedomSubwayStationBuilding",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 9,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:29c94efd3e9d25d4fae82711a36cc753"
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 4,
+                    "$type": "4|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 2,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:32b5e550d4a9af34facf35e8b1b14206",
+                        $fstrref:"UnityGUID:63764b78eb15af548b14a77f687047e0"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 5,
+                    "$type": 4,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": true
+            },
+            {
+                "$id": 6,
+                "$type": "5|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:8c76dee864c29ad43af6601048427191",
+                "m_Priority": 1,
+                "m_Icon": "assetdb://global/ba9d0e8fe45c2b1b139fab2402cc710c",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 7,
+                "$type": "6|Game.Prefabs.PlaceableObject, Game",
+                "name": "PlaceableObject",
+                "active": true,
+                "m_ConstructionCost": 1000,
+                "m_XPReward": 100
+            },
+            {
+                "$id": 8,
+                "$type": "7|Game.Prefabs.TransportStation, Game",
+                "name": "TransportStation",
+                "active": true,
+                "m_CarRefuelTypes": 0,
+                "m_TrainRefuelTypes": 0,
+                "m_WatercraftRefuelTypes": 0,
+                "m_AircraftRefuelTypes": 0,
+                "m_ComfortFactor": 0
+            },
+            {
+                "$id": 9,
+                "$type": "8|Game.Prefabs.Workplace, Game",
+                "name": "Workplace",
+                "active": true,
+                "m_Workplaces": 0,
+                "m_MinimumWorkersLimit": 0,
+                "m_Complexity": 1,
+                "m_EveningShiftProbability": 0,
+                "m_NightShiftProbability": 0,
+                "m_WorkConditions": 0
+            },
+            {
+                "$id": 10,
+                "$type": "9|Game.Prefabs.ObjectSubNets, Game",
+                "name": "ObjectSubNets",
+                "active": true,
+                "m_InvertWhen": 0,
+                "m_SubNets": {
+                    "$id": 11,
+                    "$type": "10|Game.Prefabs.ObjectSubNetInfo[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 12,
+                            "$type": "11|Game.Prefabs.ObjectSubNetInfo, Game",
+                            "m_NetPrefab": $fstrref:"UnityGUID:934ebd9cc66c40041bc631f0c53821d0",
+                            "m_BezierCurve": {
+                                "$type": "12|Colossal.Mathematics.Bezier4x3, Colossal.Mathematics",
+                                "a": {
+                                    "$type": "13|Unity.Mathematics.float3, Unity.Mathematics",
+                                    "x": -1.99877715,
+                                    "y": 0,
+                                    "z": 2.81866884
+                                },
+                                "b": {
+                                    "$type": 13,
+                                    "x": -1.99877656,
+                                    "y": 0.000183105469,
+                                    "z": 1.485335
+                                },
+                                "c": {
+                                    "$type": 13,
+                                    "x": -1.99877667,
+                                    "y": -9.15527344E-05,
+                                    "z": 0.152001739
+                                },
+                                "d": {
+                                    "$type": 13,
+                                    "x": -1.998776,
+                                    "y": 0,
+                                    "z": -1.18133116
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": "14|Unity.Mathematics.int2, Unity.Mathematics",
+                                "x": 0,
+                                "y": 1
+                            },
+                            "m_ParentMesh": {
+                                "$type": 14,
+                                "x": -1,
+                                "y": -1
+                            },
+                            "m_Upgrades": null
+                        },
+                        {
+                            "$id": 13,
+                            "$type": 11,
+                            "m_NetPrefab": $fstrref:"UnityGUID:934ebd9cc66c40041bc631f0c53821d0",
+                            "m_BezierCurve": {
+                                "$type": 12,
+                                "a": {
+                                    "$type": 13,
+                                    "x": -1.998776,
+                                    "y": 0,
+                                    "z": -1.18133116
+                                },
+                                "b": {
+                                    "$type": 13,
+                                    "x": -0.665442467,
+                                    "y": 0.000183105469,
+                                    "z": -1.181331
+                                },
+                                "c": {
+                                    "$type": 13,
+                                    "x": 0.6678906,
+                                    "y": -9.15527344E-05,
+                                    "z": -1.18133128
+                                },
+                                "d": {
+                                    "$type": 13,
+                                    "x": 2.00122333,
+                                    "y": 0,
+                                    "z": -1.1813302
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 14,
+                                "x": 1,
+                                "y": 2
+                            },
+                            "m_ParentMesh": {
+                                "$type": 14,
+                                "x": -1,
+                                "y": -1
+                            },
+                            "m_Upgrades": null
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 11,
+                            "m_NetPrefab": $fstrref:"UnityGUID:934ebd9cc66c40041bc631f0c53821d0",
+                            "m_BezierCurve": {
+                                "$type": 12,
+                                "a": {
+                                    "$type": 13,
+                                    "x": 2.00122333,
+                                    "y": 0,
+                                    "z": -1.1813302
+                                },
+                                "b": {
+                                    "$type": 13,
+                                    "x": 2.00122356,
+                                    "y": 0.000183105469,
+                                    "z": 0.15200305
+                                },
+                                "c": {
+                                    "$type": 13,
+                                    "x": 2.00122261,
+                                    "y": -9.15527344E-05,
+                                    "z": 1.4853363
+                                },
+                                "d": {
+                                    "$type": 13,
+                                    "x": 2.00122213,
+                                    "y": 0,
+                                    "z": 2.81866956
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 14,
+                                "x": 2,
+                                "y": 3
+                            },
+                            "m_ParentMesh": {
+                                "$type": 14,
+                                "x": -1,
+                                "y": -1
+                            },
+                            "m_Upgrades": null
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 15,
+                "$type": "15|Game.Prefabs.ObjectSubObjects, Game",
+                "name": "ObjectSubObjects",
+                "active": true,
+                "m_SubObjects": {
+                    "$id": 16,
+                    "$type": "16|Game.Prefabs.ObjectSubObjectInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 17,
+                            "$type": "17|Game.Prefabs.ObjectSubObjectInfo, Game",
+                            "m_Object": $fstrref:"UnityGUID:c30226ded1fc8d64abee5d0bd2554bc4",
+                            "m_Position": {
+                                "$type": 13,
+                                "x": 0,
+                                "y": -20,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "18|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "19|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 0.9999999
+                                }
+                            },
+                            "m_ParentMesh": -1,
+                            "m_GroupIndex": 0,
+                            "m_Probability": 100
+                        }
+                    ]
+                }
+            },
+            {
+                "$id": 18,
+                "$type": "20|Game.Prefabs.NetObject, Game",
+                "name": "NetObject",
+                "active": true,
+                "m_SetCompositionState": null,
+                "m_RequireRoad": 0,
+                "m_RoadPassThrough": 0,
+                "m_TrackPassThrough": 0,
+                "m_NodeOffset": 0,
+                "m_Attached": false,
+                "m_RequirePedestrian": false
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 19,
+        "$type": "21|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_Circular": false,
+    "m_AccessType": 7,
+    "m_LotWidth": 1,
+    "m_LotDepth": 1
+}

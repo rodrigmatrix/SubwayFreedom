@@ -1,0 +1,14 @@
+@use "base" as _base;
+
+.removeButton {
+  height: 20rem;
+  width: 20rem;
+  flex-shrink: 0;
+  opacity: 0.6;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+    background-color: rgba(180, 40, 40, 0.4);
+  }
+}

@@ -24,15 +24,6 @@ You can watch the linked YouTube video to understand how it works or read bellow
 - 4 Connect the stops to the platforms and see the magic.
 
 - 5 To delete/move the module and/or upgrades, click on an entrance, go to the main module building, and delete all of its sub-building on the info panel or use the bulldozer on the module or sub-buildings. You can also click any sub-building and go to the main building to check all the upgrades.
-
-# KNOWN ISSUES:
-- If you have the mod ExtraDetailingTools, you will see a button to delete the subway module on the info panel. Do not use that button to delete the module and all sub-buildings.
-Instead, you can first delete the upgrades or use the bulldozer on the subway module to delete everything for that station.
-You can delete other upgrades from the info view but not the subway module. This issue causes surfaces and platforms not being deleted.
-This also happens to other buildings and is caused by the ExtraDetailingTools delete button.
-
-- This is not an issue but something from the move it mod. If you need to move entrances or platforms, you'll have to click on them and use the reallocate button. This happens for other in game building as well so there's no fix for it so we need to wait for move it to support sub-buildings.
-
 ## If you have any questions, please use the discussion bellow
 
 ## For asset creators:
@@ -95,18 +86,16 @@ Thanks to TDW for the Asset Icon Creator.
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/subway-freedom-asset-pack-mod-discussion.1694309/" />
 	<!--Version of the mod-->
-	<ModVersion Value="3.1.1" />
+	<ModVersion Value="3.3" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.*" />
   <Dependency Id="74604" />
   <Dependency Id="75426" />
+  <Dependency Id="158835" />
   <!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
   <ChangeLog>
-# v3.1.1 
-  - Updated icons
-  - Added new bike and tram support.
-  - Bike station halls and overground tram stations also serve as pedestrian entrances for the module so they can transfer to overground or underground platforms/lines.
-  - Added support to the new assets on Station Entrance Visuals
+    # v3.3
+    - Added requirement for Sub Building Demolition Fix mod which will fix the issue of not being able to delete sub-buildings when the main building is deleted.
   </ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->

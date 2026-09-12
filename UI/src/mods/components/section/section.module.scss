@@ -1,0 +1,15 @@
+// Code by T.D.W.
+.container {
+  background-color: rgba(5, 10, 20, 0.2);
+  border-radius: 10rem;
+  padding: 16rem;
+  margin: 10rem;
+}
+
+.title {
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 16rem;
+  color: var(--accentColorLight);
+}

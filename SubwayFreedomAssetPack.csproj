@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   
   <Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.props" />
   <Import Project="$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'EnvironmentVariableTarget.User'))\Mod.targets" />
@@ -7,12 +7,19 @@
 		<OutputType>Library</OutputType>
 		<TargetFramework>net472</TargetFramework>
 		<Configurations>Debug;Release</Configurations>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		
 		<!--The file where mod information which is required for publishing mod on PDX mods are stored-->
 		<PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
 
     <AdditionalFilesDirectory>Resources</AdditionalFilesDirectory>
 	</PropertyGroup>
+
+	<Target Name="RunModPostProcessor" AfterTargets="AfterBuild" Condition="False" />
+
+	<ItemGroup>
+		<PackageReference Include="Lib.Harmony" Version="2.3.3" />
+	</ItemGroup>
 
 
 	<ItemGroup>
@@ -144,6 +151,10 @@
   <ItemGroup>
     <Folder Include="Resources\StreamingData~\" />
   </ItemGroup>
+
+  <Target Name="BuildUI" AfterTargets="AfterBuild">
+    <Exec Command="npm run build" WorkingDirectory="$(ProjectDir)/UI" />
+  </Target>
 
   <Target Name="GetAdditionalFiles" AfterTargets="DeployWIP">
     <ItemGroup>
